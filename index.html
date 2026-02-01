@@ -1,28 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Shravani | Portfolio</title>
+
   <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<h1 id="name">Loading...</h1>
+<!-- Hero Section -->
+<section class="hero">
 
-<h2>My Skills</h2>
-<ul id="skills"></ul>
+  <h1 id="name">Loading...</h1>
+  <p>Full Stack Developer 🚀</p>
 
-<h2>My Projects</h2>
-<div id="projects"></div>
+</section>
 
-<h2>Contact Me</h2>
 
-<form id="contactForm">
-  <input type="text" placeholder="Name" id="nameInput" required>
-  <input type="email" placeholder="Email" id="emailInput" required>
-  <textarea placeholder="Message" id="msgInput"></textarea>
-  <button>Send</button>
-</form>
+<!-- Skills -->
+<section class="card">
+
+  <h2>💻 Skills</h2>
+  <ul id="skills"></ul>
+
+</section>
+
+
+<!-- Projects -->
+<section class="card">
+
+  <h2>🔥 Projects</h2>
+  <div id="projects"></div>
+
+</section>
+
+
+<!-- Contact -->
+<section class="card">
+
+  <h2>📩 Contact Me</h2>
+
+  <form id="contactForm">
+
+    <input type="text" id="nameInput" placeholder="Your Name" required>
+
+    <input type="email" id="emailInput" placeholder="Your Email" required>
+
+    <textarea id="msgInput" placeholder="Your Message"></textarea>
+
+    <button>Send Message 🚀</button>
+
+  </form>
+
+</section>
+
+
+<footer>
+  Made with ❤️ by Shravani
+</footer>
+
 
 <script src="script.js"></script>
 
